@@ -1,0 +1,1354 @@
+{
+    "categories": [
+        {
+            "name": "Зарплата",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Фріланс / Бонуси",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Інвестиції",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Подарунки",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Підробіток",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Стипендія / Допомога",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Відсотки / Кешбек",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Продаж речей",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Повернення боргів",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Інші доходи",
+            "type": "Income",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Продукти",
+            "type": "Expense",
+            "monthly_limit": 8000.0
+        },
+        {
+            "name": "Комунальні",
+            "type": "Expense",
+            "monthly_limit": 3500.0
+        },
+        {
+            "name": "Розваги",
+            "type": "Expense",
+            "monthly_limit": 3000.0
+        },
+        {
+            "name": "Транспорт",
+            "type": "Expense",
+            "monthly_limit": 2000.0
+        },
+        {
+            "name": "Кафе та ресторани",
+            "type": "Expense",
+            "monthly_limit": 2500.0
+        },
+        {
+            "name": "Здоров'я та спорт",
+            "type": "Expense",
+            "monthly_limit": 2000.0
+        },
+        {
+            "name": "Покупки / Одяг",
+            "type": "Expense",
+            "monthly_limit": 4000.0
+        },
+        {
+            "name": "Техніка",
+            "type": "Expense",
+            "monthly_limit": 10000.0
+        },
+        {
+            "name": "Зв'язок та інтернет",
+            "type": "Expense",
+            "monthly_limit": 800.0
+        },
+        {
+            "name": "Освіта",
+            "type": "Expense",
+            "monthly_limit": 3000.0
+        },
+        {
+            "name": "Подорожі",
+            "type": "Expense",
+            "monthly_limit": 5000.0
+        },
+        {
+            "name": "Дім та ремонт",
+            "type": "Expense",
+            "monthly_limit": 4000.0
+        },
+        {
+            "name": "Краса та догляд",
+            "type": "Expense",
+            "monthly_limit": 1500.0
+        },
+        {
+            "name": "Побутова хімія",
+            "type": "Expense",
+            "monthly_limit": 1500.0
+        },
+        {
+            "name": "Тварини",
+            "type": "Expense",
+            "monthly_limit": 1500.0
+        },
+        {
+            "name": "Благодійність",
+            "type": "Expense",
+            "monthly_limit": 0.0
+        },
+        {
+            "name": "Інші витрати",
+            "type": "Expense",
+            "monthly_limit": 3000.0
+        }
+    ],
+    "transactions": [
+        {
+            "trans_id": 1,
+            "type": "Expense",
+            "amount": 609.1,
+            "date": "2026-11-07",
+            "category": "Продукти",
+            "description": "Овочі на борщ",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-11-07 20:14:28"
+        },
+        {
+            "trans_id": 2,
+            "type": "Expense",
+            "amount": 3071.41,
+            "date": "2026-11-18",
+            "category": "Дім та ремонт",
+            "description": "Постільна білизна",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-11-18 11:13:48"
+        },
+        {
+            "trans_id": 3,
+            "type": "Expense",
+            "amount": 948.73,
+            "date": "2026-11-06",
+            "category": "Продукти",
+            "description": "Ковбаса та сир",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-11-06 21:34:07"
+        },
+        {
+            "trans_id": 4,
+            "type": "Expense",
+            "amount": 548.93,
+            "date": "2026-09-09",
+            "category": "Транспорт",
+            "description": "Електричка на дачу",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-09 08:42:14"
+        },
+        {
+            "trans_id": 5,
+            "type": "Expense",
+            "amount": 1306.4,
+            "date": "2026-10-20",
+            "category": "Інші витрати",
+            "description": "Штраф",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-20 18:10:23"
+        },
+        {
+            "trans_id": 6,
+            "type": "Expense",
+            "amount": 4233.95,
+            "date": "2026-08-21",
+            "category": "Покупки / Одяг",
+            "description": "Рюкзак для навчання",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-21 14:10:29"
+        },
+        {
+            "trans_id": 7,
+            "type": "Expense",
+            "amount": 1047.83,
+            "date": "2026-08-29",
+            "category": "Інші витрати",
+            "description": "Поштові відправлення",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-08-29 08:14:52"
+        },
+        {
+            "trans_id": 8,
+            "type": "Income",
+            "amount": 13323.77,
+            "date": "2026-10-15",
+            "category": "Зарплата",
+            "description": "Зарплата на картку",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-10-15 22:25:56"
+        },
+        {
+            "trans_id": 9,
+            "type": "Expense",
+            "amount": 277.15,
+            "date": "2026-10-16",
+            "category": "Транспорт",
+            "description": "Uber з вокзалу",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-10-16 19:23:14"
+        },
+        {
+            "trans_id": 10,
+            "type": "Expense",
+            "amount": 300.0,
+            "date": "2026-09-16",
+            "category": "Продукти",
+            "description": "Сільпо — овочі та фрукти",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-09-16 12:50:43"
+        },
+        {
+            "trans_id": 11,
+            "type": "Expense",
+            "amount": 1522.05,
+            "date": "2026-10-01",
+            "category": "Продукти",
+            "description": "Вода 6 л і сік",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-01 07:43:46"
+        },
+        {
+            "trans_id": 12,
+            "type": "Income",
+            "amount": 6963.67,
+            "date": "2026-10-15",
+            "category": "Продаж речей",
+            "description": "Продав книги",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-15 21:00:46"
+        },
+        {
+            "trans_id": 13,
+            "type": "RegularExpense",
+            "amount": 2533.49,
+            "date": "2026-09-15",
+            "category": "Комунальні",
+            "description": "Гаряча вода",
+            "person": "Михайло Мороз",
+            "created_at": "2026-09-15 16:53:40",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 14,
+            "type": "RegularExpense",
+            "amount": 2535.03,
+            "date": "2026-10-02",
+            "category": "Комунальні",
+            "description": "Гаряча вода",
+            "person": "Михайло Мороз",
+            "created_at": "2026-10-02 07:38:20",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 15,
+            "type": "Expense",
+            "amount": 2206.51,
+            "date": "2026-10-03",
+            "category": "Продукти",
+            "description": "Фрукти для дітей",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-03 09:05:46"
+        },
+        {
+            "trans_id": 16,
+            "type": "Expense",
+            "amount": 1933.32,
+            "date": "2026-09-11",
+            "category": "Продукти",
+            "description": "Привоз, овочі та зелень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-11 12:16:33"
+        },
+        {
+            "trans_id": 17,
+            "type": "Expense",
+            "amount": 1674.18,
+            "date": "2026-10-22",
+            "category": "Транспорт",
+            "description": "Мийка авто",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-10-22 18:28:57"
+        },
+        {
+            "trans_id": 18,
+            "type": "Expense",
+            "amount": 234.94,
+            "date": "2026-10-21",
+            "category": "Продукти",
+            "description": "АТБ, закупи на тиждень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-21 14:00:04"
+        },
+        {
+            "trans_id": 19,
+            "type": "Expense",
+            "amount": 2271.12,
+            "date": "2026-11-10",
+            "category": "Продукти",
+            "description": "Молочка з ринку",
+            "person": "Артем Коваленко",
+            "created_at": "2026-11-10 22:13:34"
+        },
+        {
+            "trans_id": 20,
+            "type": "Expense",
+            "amount": 885.51,
+            "date": "2026-09-06",
+            "category": "Благодійність",
+            "description": "Допомога притулку",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-09-06 13:06:06"
+        },
+        {
+            "trans_id": 21,
+            "type": "Expense",
+            "amount": 856.63,
+            "date": "2026-09-27",
+            "category": "Транспорт",
+            "description": "Bolt до роботи",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-27 10:03:25"
+        },
+        {
+            "trans_id": 22,
+            "type": "Expense",
+            "amount": 1867.61,
+            "date": "2026-11-05",
+            "category": "Подорожі",
+            "description": "Екскурсія",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-11-06 15:29:15"
+        },
+        {
+            "trans_id": 23,
+            "type": "Expense",
+            "amount": 316.94,
+            "date": "2026-09-09",
+            "category": "Продукти",
+            "description": "Все для сніданків",
+            "person": "Михайло Мороз",
+            "created_at": "2026-09-09 09:59:48"
+        },
+        {
+            "trans_id": 24,
+            "type": "Expense",
+            "amount": 1244.89,
+            "date": "2026-09-17",
+            "category": "Продукти",
+            "description": "Риба на вечерю",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-09-17 07:24:16"
+        },
+        {
+            "trans_id": 25,
+            "type": "Expense",
+            "amount": 2826.54,
+            "date": "2026-10-13",
+            "category": "Подорожі",
+            "description": "Відпочинок на морі",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-13 13:18:13"
+        },
+        {
+            "trans_id": 26,
+            "type": "Expense",
+            "amount": 218.62,
+            "date": "2026-09-10",
+            "category": "Кафе та ресторани",
+            "description": "Вечеря в ресторані",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-10 23:58:54"
+        },
+        {
+            "trans_id": 27,
+            "type": "Expense",
+            "amount": 273.87,
+            "date": "2026-09-14",
+            "category": "Продукти",
+            "description": "Купив продукти на вихідні",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-15 19:07:56"
+        },
+        {
+            "trans_id": 28,
+            "type": "Expense",
+            "amount": 1396.89,
+            "date": "2026-11-13",
+            "category": "Кафе та ресторани",
+            "description": "Круасан і капучино",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-11-13 17:59:16"
+        },
+        {
+            "trans_id": 29,
+            "type": "RegularExpense",
+            "amount": 229.68,
+            "date": "2026-10-19",
+            "category": "Зв'язок та інтернет",
+            "description": "Інтернет за жовтень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-19 17:59:48",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 30,
+            "type": "Expense",
+            "amount": 2496.26,
+            "date": "2026-08-31",
+            "category": "Продукти",
+            "description": "Новус, м'ясо та сир",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-31 15:08:59"
+        },
+        {
+            "trans_id": 31,
+            "type": "Expense",
+            "amount": 974.26,
+            "date": "2026-10-18",
+            "category": "Продукти",
+            "description": "Купив продукти на вихідні",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-18 16:39:51"
+        },
+        {
+            "trans_id": 32,
+            "type": "Expense",
+            "amount": 804.5,
+            "date": "2026-09-09",
+            "category": "Продукти",
+            "description": "Курка, картопля, цибуля",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-09 15:07:56"
+        },
+        {
+            "trans_id": 33,
+            "type": "Income",
+            "amount": 5303.71,
+            "date": "2026-10-15",
+            "category": "Фріланс / Бонуси",
+            "description": "Бонус за проєкт",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-10-15 15:32:31"
+        },
+        {
+            "trans_id": 34,
+            "type": "Expense",
+            "amount": 229.22,
+            "date": "2026-11-12",
+            "category": "Тварини",
+            "description": "Наповнювач",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-11-14 11:40:16"
+        },
+        {
+            "trans_id": 35,
+            "type": "Expense",
+            "amount": 787.01,
+            "date": "2026-08-20",
+            "category": "Транспорт",
+            "description": "Проїзд у маршрутці",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-20 11:34:02"
+        },
+        {
+            "trans_id": 36,
+            "type": "Expense",
+            "amount": 996.85,
+            "date": "2026-10-31",
+            "category": "Кафе та ресторани",
+            "description": "Кава з собою",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-31 08:57:22"
+        },
+        {
+            "trans_id": 37,
+            "type": "RegularExpense",
+            "amount": 1390.3,
+            "date": "2026-11-05",
+            "category": "Комунальні",
+            "description": "Гаряча вода",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-11-05 11:59:59",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 38,
+            "type": "Expense",
+            "amount": 2213.03,
+            "date": "2026-10-27",
+            "category": "Продукти",
+            "description": "АТБ, закупи на тиждень",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-27 20:51:42"
+        },
+        {
+            "trans_id": 39,
+            "type": "Expense",
+            "amount": 762.91,
+            "date": "2026-10-15",
+            "category": "Дім та ремонт",
+            "description": "Лампочки",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-17 14:12:52"
+        },
+        {
+            "trans_id": 40,
+            "type": "Expense",
+            "amount": 424.57,
+            "date": "2026-10-20",
+            "category": "Транспорт",
+            "description": "Мийка авто",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-20 09:49:17"
+        },
+        {
+            "trans_id": 41,
+            "type": "Expense",
+            "amount": 1766.63,
+            "date": "2026-08-24",
+            "category": "Транспорт",
+            "description": "Заміна масла",
+            "person": "Михайло Мороз",
+            "created_at": "2026-08-26 12:37:16"
+        },
+        {
+            "trans_id": 42,
+            "type": "Income",
+            "amount": 4425.56,
+            "date": "2026-10-05",
+            "category": "Інвестиції",
+            "description": "Прибуток від акцій",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-05 10:24:57"
+        },
+        {
+            "trans_id": 43,
+            "type": "RegularExpense",
+            "amount": 1620.96,
+            "date": "2026-08-20",
+            "category": "Комунальні",
+            "description": "Гаряча вода",
+            "person": "Михайло Мороз",
+            "created_at": "2026-08-20 13:23:27",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 44,
+            "type": "Income",
+            "amount": 3228.83,
+            "date": "2026-10-07",
+            "category": "Подарунки",
+            "description": "Подарунок на день народження",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-10-07 16:42:26"
+        },
+        {
+            "trans_id": 45,
+            "type": "Expense",
+            "amount": 1876.54,
+            "date": "2026-09-09",
+            "category": "Техніка",
+            "description": "Пилосос",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-09 12:39:36"
+        },
+        {
+            "trans_id": 46,
+            "type": "Expense",
+            "amount": 731.18,
+            "date": "2026-11-18",
+            "category": "Кафе та ресторани",
+            "description": "Суші-сет",
+            "person": "Артем Коваленко",
+            "created_at": "2026-11-18 17:29:28"
+        },
+        {
+            "trans_id": 47,
+            "type": "RegularExpense",
+            "amount": 2622.46,
+            "date": "2026-09-19",
+            "category": "Комунальні",
+            "description": "Доплата за газ",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-09-19 16:32:42",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 48,
+            "type": "Expense",
+            "amount": 1220.85,
+            "date": "2026-10-19",
+            "category": "Транспорт",
+            "description": "Квиток на автобус",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-10-20 14:30:39"
+        },
+        {
+            "trans_id": 49,
+            "type": "Expense",
+            "amount": 2224.45,
+            "date": "2026-09-26",
+            "category": "Продукти",
+            "description": "Продукти додому",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-26 22:25:15"
+        },
+        {
+            "trans_id": 50,
+            "type": "Expense",
+            "amount": 9429.68,
+            "date": "2026-11-05",
+            "category": "Техніка",
+            "description": "Мишка до ноутбука",
+            "person": "Артем Коваленко",
+            "created_at": "2026-11-05 23:29:03"
+        },
+        {
+            "trans_id": 51,
+            "type": "Expense",
+            "amount": 739.05,
+            "date": "2026-11-03",
+            "category": "Тварини",
+            "description": "Щеплення",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-11-03 17:48:57"
+        },
+        {
+            "trans_id": 52,
+            "type": "Expense",
+            "amount": 1792.95,
+            "date": "2026-09-15",
+            "category": "Дім та ремонт",
+            "description": "Сантехніка",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-15 22:28:16"
+        },
+        {
+            "trans_id": 53,
+            "type": "Expense",
+            "amount": 1425.3,
+            "date": "2026-10-14",
+            "category": "Краса та догляд",
+            "description": "Депіляція",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-14 09:45:18"
+        },
+        {
+            "trans_id": 54,
+            "type": "Expense",
+            "amount": 172.62,
+            "date": "2026-09-10",
+            "category": "Транспорт",
+            "description": "Таксі додому",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-10 13:04:26"
+        },
+        {
+            "trans_id": 55,
+            "type": "Expense",
+            "amount": 221.38,
+            "date": "2026-09-26",
+            "category": "Кафе та ресторани",
+            "description": "Шаурма",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-26 07:54:56"
+        },
+        {
+            "trans_id": 56,
+            "type": "Expense",
+            "amount": 1698.65,
+            "date": "2026-11-18",
+            "category": "Транспорт",
+            "description": "Бензин А-95",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-11-18 20:34:47"
+        },
+        {
+            "trans_id": 57,
+            "type": "Expense",
+            "amount": 3185.26,
+            "date": "2026-10-21",
+            "category": "Подорожі",
+            "description": "Авіаквитки",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-23 19:46:10"
+        },
+        {
+            "trans_id": 58,
+            "type": "Expense",
+            "amount": 847.77,
+            "date": "2026-08-31",
+            "category": "Тварини",
+            "description": "Наповнювач",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-08-31 09:41:27"
+        },
+        {
+            "trans_id": 59,
+            "type": "Expense",
+            "amount": 490.48,
+            "date": "2026-11-12",
+            "category": "Транспорт",
+            "description": "Заміна масла",
+            "person": "Артем Коваленко",
+            "created_at": "2026-11-12 19:17:48"
+        },
+        {
+            "trans_id": 60,
+            "type": "Expense",
+            "amount": 862.44,
+            "date": "2026-11-08",
+            "category": "Транспорт",
+            "description": "Bolt до роботи",
+            "person": "Михайло Мороз",
+            "created_at": "2026-11-08 09:49:41"
+        },
+        {
+            "trans_id": 61,
+            "type": "Income",
+            "amount": 15987.21,
+            "date": "2026-10-18",
+            "category": "Зарплата",
+            "description": "Зарплата за жовтень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-18 22:42:07"
+        },
+        {
+            "trans_id": 62,
+            "type": "RegularExpense",
+            "amount": 1117.48,
+            "date": "2026-08-21",
+            "category": "Комунальні",
+            "description": "Комуналка за серпень",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-21 10:49:52",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 63,
+            "type": "Expense",
+            "amount": 169.33,
+            "date": "2026-09-05",
+            "category": "Розваги",
+            "description": "Парк атракціонів",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-05 19:25:45"
+        },
+        {
+            "trans_id": 64,
+            "type": "Expense",
+            "amount": 602.41,
+            "date": "2026-08-30",
+            "category": "Кафе та ресторани",
+            "description": "Сніданок у кав'ярні",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-08-30 10:50:36"
+        },
+        {
+            "trans_id": 65,
+            "type": "Expense",
+            "amount": 1200.89,
+            "date": "2026-09-25",
+            "category": "Транспорт",
+            "description": "Заправка, 20 л",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-25 20:52:31"
+        },
+        {
+            "trans_id": 66,
+            "type": "Income",
+            "amount": 1793.99,
+            "date": "2026-08-29",
+            "category": "Інші доходи",
+            "description": "Невеликий дохід",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-08-29 23:41:17"
+        },
+        {
+            "trans_id": 67,
+            "type": "Expense",
+            "amount": 750.82,
+            "date": "2026-09-18",
+            "category": "Тварини",
+            "description": "Щеплення",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-09-18 14:53:59"
+        },
+        {
+            "trans_id": 68,
+            "type": "Income",
+            "amount": 6804.19,
+            "date": "2026-10-18",
+            "category": "Продаж речей",
+            "description": "Продав ноутбук",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-18 07:31:54"
+        },
+        {
+            "trans_id": 69,
+            "type": "Expense",
+            "amount": 1442.16,
+            "date": "2026-10-04",
+            "category": "Транспорт",
+            "description": "Заміна масла",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-04 15:35:00"
+        },
+        {
+            "trans_id": 70,
+            "type": "Expense",
+            "amount": 1822.58,
+            "date": "2026-10-19",
+            "category": "Продукти",
+            "description": "Печиво до чаю",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-19 22:41:45"
+        },
+        {
+            "trans_id": 71,
+            "type": "Expense",
+            "amount": 2118.3,
+            "date": "2026-11-07",
+            "category": "Подорожі",
+            "description": "Сувеніри",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-11-07 18:30:35"
+        },
+        {
+            "trans_id": 72,
+            "type": "Expense",
+            "amount": 615.5,
+            "date": "2026-09-09",
+            "category": "Транспорт",
+            "description": "Страховка авто",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-09 10:46:12"
+        },
+        {
+            "trans_id": 73,
+            "type": "Expense",
+            "amount": 892.48,
+            "date": "2026-08-22",
+            "category": "Освіта",
+            "description": "Репетитор з математики",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-08-22 23:38:18"
+        },
+        {
+            "trans_id": 74,
+            "type": "Expense",
+            "amount": 1025.81,
+            "date": "2026-10-12",
+            "category": "Дім та ремонт",
+            "description": "Постільна білизна",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-12 11:17:02"
+        },
+        {
+            "trans_id": 75,
+            "type": "Expense",
+            "amount": 2082.03,
+            "date": "2026-08-21",
+            "category": "Кафе та ресторани",
+            "description": "Доставка їжі",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-08-21 07:36:18"
+        },
+        {
+            "trans_id": 76,
+            "type": "Expense",
+            "amount": 1738.93,
+            "date": "2026-10-26",
+            "category": "Транспорт",
+            "description": "Uber з вокзалу",
+            "person": "Михайло Мороз",
+            "created_at": "2026-10-26 09:25:31"
+        },
+        {
+            "trans_id": 77,
+            "type": "Income",
+            "amount": 1080.02,
+            "date": "2026-11-12",
+            "category": "Інвестиції",
+            "description": "Продаж облігацій",
+            "person": "Михайло Мороз",
+            "created_at": "2026-11-13 10:35:48"
+        },
+        {
+            "trans_id": 78,
+            "type": "Expense",
+            "amount": 566.2,
+            "date": "2026-08-31",
+            "category": "Кафе та ресторани",
+            "description": "День народження в кафе",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-31 16:55:37"
+        },
+        {
+            "trans_id": 79,
+            "type": "Expense",
+            "amount": 262.62,
+            "date": "2026-08-31",
+            "category": "Розваги",
+            "description": "Steam, нова гра",
+            "person": "Михайло Мороз",
+            "created_at": "2026-08-31 13:16:42"
+        },
+        {
+            "trans_id": 80,
+            "type": "Income",
+            "amount": 13501.3,
+            "date": "2026-09-09",
+            "category": "Зарплата",
+            "description": "Зарплата за вересень",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-09 22:18:02"
+        },
+        {
+            "trans_id": 81,
+            "type": "Expense",
+            "amount": 10371.44,
+            "date": "2026-08-21",
+            "category": "Техніка",
+            "description": "Зарядка для телефону",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-08-21 13:27:07"
+        },
+        {
+            "trans_id": 82,
+            "type": "Expense",
+            "amount": 3771.85,
+            "date": "2026-10-15",
+            "category": "Покупки / Одяг",
+            "description": "Кросівки",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-15 16:28:07"
+        },
+        {
+            "trans_id": 83,
+            "type": "Expense",
+            "amount": 2645.23,
+            "date": "2026-09-28",
+            "category": "Розваги",
+            "description": "Стендап, квитки",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-28 20:47:20"
+        },
+        {
+            "trans_id": 84,
+            "type": "Expense",
+            "amount": 2407.82,
+            "date": "2026-10-20",
+            "category": "Продукти",
+            "description": "Продукти додому",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-23 15:36:02"
+        },
+        {
+            "trans_id": 85,
+            "type": "Expense",
+            "amount": 1656.65,
+            "date": "2026-09-13",
+            "category": "Продукти",
+            "description": "М'ясо на шашлик",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-13 22:05:30"
+        },
+        {
+            "trans_id": 86,
+            "type": "Expense",
+            "amount": 215.14,
+            "date": "2026-08-25",
+            "category": "Транспорт",
+            "description": "Паркування біля офісу",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-25 16:42:25"
+        },
+        {
+            "trans_id": 87,
+            "type": "Expense",
+            "amount": 275.81,
+            "date": "2026-09-21",
+            "category": "Кафе та ресторани",
+            "description": "Бізнес-ланч",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-21 19:55:32"
+        },
+        {
+            "trans_id": 88,
+            "type": "Expense",
+            "amount": 1197.98,
+            "date": "2026-09-10",
+            "category": "Продукти",
+            "description": "Сільпо — овочі та фрукти",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-10 22:40:28"
+        },
+        {
+            "trans_id": 89,
+            "type": "RegularExpense",
+            "amount": 766.84,
+            "date": "2026-09-09",
+            "category": "Комунальні",
+            "description": "Вивіз сміття",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-09 10:01:40",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 90,
+            "type": "RegularExpense",
+            "amount": 1270.1,
+            "date": "2026-10-29",
+            "category": "Комунальні",
+            "description": "Світло за жовтень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-30 21:07:41",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 91,
+            "type": "Expense",
+            "amount": 930.7,
+            "date": "2026-10-12",
+            "category": "Транспорт",
+            "description": "Uber з вокзалу",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-12 22:15:29"
+        },
+        {
+            "trans_id": 92,
+            "type": "Expense",
+            "amount": 929.59,
+            "date": "2026-09-03",
+            "category": "Транспорт",
+            "description": "Таксі додому",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-09-03 20:21:59"
+        },
+        {
+            "trans_id": 93,
+            "type": "RegularExpense",
+            "amount": 1191.95,
+            "date": "2026-11-18",
+            "category": "Комунальні",
+            "description": "Вивіз сміття",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-11-18 22:55:09",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 94,
+            "type": "Expense",
+            "amount": 1006.89,
+            "date": "2026-10-07",
+            "category": "Транспорт",
+            "description": "Проїзд за тиждень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-07 13:44:15"
+        },
+        {
+            "trans_id": 95,
+            "type": "RegularExpense",
+            "amount": 522.21,
+            "date": "2026-09-27",
+            "category": "Комунальні",
+            "description": "Опалення за вересень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-27 19:24:42",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 96,
+            "type": "Expense",
+            "amount": 2380.38,
+            "date": "2026-10-30",
+            "category": "Покупки / Одяг",
+            "description": "Куртка на осінь",
+            "person": "Артем Коваленко",
+            "created_at": "2026-10-30 17:55:06"
+        },
+        {
+            "trans_id": 97,
+            "type": "Expense",
+            "amount": 1641.48,
+            "date": "2026-09-12",
+            "category": "Транспорт",
+            "description": "Проїзд у маршрутці",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-09-12 11:04:30"
+        },
+        {
+            "trans_id": 98,
+            "type": "RegularExpense",
+            "amount": 2339.57,
+            "date": "2026-08-31",
+            "category": "Комунальні",
+            "description": "Оплата за світло, показники передав",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-31 19:20:40",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 99,
+            "type": "Expense",
+            "amount": 414.88,
+            "date": "2026-09-10",
+            "category": "Освіта",
+            "description": "Підручники",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-10 16:14:47"
+        },
+        {
+            "trans_id": 100,
+            "type": "Income",
+            "amount": 1437.39,
+            "date": "2026-08-29",
+            "category": "Інші доходи",
+            "description": "Різне",
+            "person": "Артем Коваленко",
+            "created_at": "2026-08-29 07:02:20"
+        },
+        {
+            "trans_id": 101,
+            "type": "Expense",
+            "amount": 1262.85,
+            "date": "2026-10-02",
+            "category": "Розваги",
+            "description": "Караоке з колегами",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-02 12:10:11"
+        },
+        {
+            "trans_id": 102,
+            "type": "Income",
+            "amount": 6211.58,
+            "date": "2026-08-31",
+            "category": "Продаж речей",
+            "description": "Продаж одягу",
+            "person": "Михайло Мороз",
+            "created_at": "2026-09-02 15:29:16"
+        },
+        {
+            "trans_id": 103,
+            "type": "Expense",
+            "amount": 636.77,
+            "date": "2026-09-20",
+            "category": "Побутова хімія",
+            "description": "Побутова хімія в Аврорі",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-22 16:40:27"
+        },
+        {
+            "trans_id": 104,
+            "type": "Expense",
+            "amount": 382.61,
+            "date": "2026-10-11",
+            "category": "Транспорт",
+            "description": "Проїзд за тиждень",
+            "person": "Крістіна Бондаренко",
+            "created_at": "2026-10-13 18:36:18"
+        },
+        {
+            "trans_id": 105,
+            "type": "Expense",
+            "amount": 1168.68,
+            "date": "2026-08-26",
+            "category": "Розваги",
+            "description": "Кіно з друзями",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-08-26 08:58:38"
+        },
+        {
+            "trans_id": 106,
+            "type": "Expense",
+            "amount": 3136.6,
+            "date": "2026-10-13",
+            "category": "Дім та ремонт",
+            "description": "Інструменти",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-13 13:39:16"
+        },
+        {
+            "trans_id": 107,
+            "type": "RegularExpense",
+            "amount": 354.26,
+            "date": "2026-08-26",
+            "category": "Зв'язок та інтернет",
+            "description": "Інтернет за серпень",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-08-26 08:19:50",
+            "frequency": "monthly"
+        },
+        {
+            "trans_id": 108,
+            "type": "Expense",
+            "amount": 280.18,
+            "date": "2026-11-02",
+            "category": "Кафе та ресторани",
+            "description": "Бізнес-ланч",
+            "person": "Артем Коваленко",
+            "created_at": "2026-11-02 13:08:50"
+        },
+        {
+            "trans_id": 109,
+            "type": "Expense",
+            "amount": 777.6,
+            "date": "2026-09-12",
+            "category": "Інші витрати",
+            "description": "Нотаріус",
+            "person": "Віталій Кравченко",
+            "created_at": "2026-09-12 22:51:18"
+        },
+        {
+            "trans_id": 110,
+            "type": "Expense",
+            "amount": 858.95,
+            "date": "2026-11-04",
+            "category": "Транспорт",
+            "description": "Заправка, 20 л",
+            "person": "Артем Коваленко",
+            "created_at": "2026-11-04 19:54:51"
+        },
+        {
+            "trans_id": 111,
+            "type": "Expense",
+            "amount": 113.68,
+            "date": "2026-09-29",
+            "category": "Продукти",
+            "description": "Заморожені ягоди",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-29 15:37:24"
+        },
+        {
+            "trans_id": 112,
+            "type": "Expense",
+            "amount": 1028.51,
+            "date": "2026-11-05",
+            "category": "Благодійність",
+            "description": "Пожертва на лікування",
+            "person": "Артем Коваленко",
+            "created_at": "2026-11-05 17:58:39"
+        },
+        {
+            "trans_id": 113,
+            "type": "Expense",
+            "amount": 2280.72,
+            "date": "2026-09-20",
+            "category": "Продукти",
+            "description": "Фрукти для дітей",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-21 08:19:31"
+        },
+        {
+            "trans_id": 114,
+            "type": "Income",
+            "amount": 14713.28,
+            "date": "2026-09-11",
+            "category": "Зарплата",
+            "description": "Розрахунок за вересень",
+            "person": "Артем Коваленко",
+            "created_at": "2026-09-11 20:37:47"
+        },
+        {
+            "trans_id": 115,
+            "type": "Expense",
+            "amount": 123.37,
+            "date": "2026-08-27",
+            "category": "Побутова хімія",
+            "description": "Сміттєві пакети",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-08-27 15:02:44"
+        },
+        {
+            "trans_id": 116,
+            "type": "Expense",
+            "amount": 1544.15,
+            "date": "2026-10-19",
+            "category": "Транспорт",
+            "description": "Трамвай, поповнення картки",
+            "person": "Михайло Мороз",
+            "created_at": "2026-10-19 18:03:25"
+        },
+        {
+            "trans_id": 117,
+            "type": "Expense",
+            "amount": 182.93,
+            "date": "2026-09-21",
+            "category": "Інші витрати",
+            "description": "Поштові відправлення",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-21 07:03:50"
+        },
+        {
+            "trans_id": 118,
+            "type": "Expense",
+            "amount": 347.55,
+            "date": "2026-09-07",
+            "category": "Інші витрати",
+            "description": "Поштові відправлення",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-09-07 14:21:49"
+        },
+        {
+            "trans_id": 119,
+            "type": "Expense",
+            "amount": 237.46,
+            "date": "2026-11-18",
+            "category": "Побутова хімія",
+            "description": "Засіб для посуду",
+            "person": "Михайло Мороз",
+            "created_at": "2026-11-18 12:07:42"
+        },
+        {
+            "trans_id": 120,
+            "type": "Expense",
+            "amount": 1991.76,
+            "date": "2026-10-04",
+            "category": "Продукти",
+            "description": "Макарони, крупи, олія",
+            "person": "Володимир Яковенко",
+            "created_at": "2026-10-06 08:08:47"
+        }
+    ]
+}
