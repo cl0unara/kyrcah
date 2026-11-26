@@ -2,6 +2,7 @@ import json
 import logging
 import math
 import os
+import sys
 import threading
 from queue import Queue, Empty
 
@@ -9,8 +10,9 @@ from errors import BudgetError, ValidationError
 from models import Budget, Category, TransactionFactory
 from data_manager import DataManager
 
-# budget.json лежить поруч зі скриптами проєкту (не залежить від поточної папки запуску)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# У звичайному запуску файли лежать поруч зі скриптами.
+# У зібраному PyInstaller EXE — поруч із самим exe, а не в тимчасовій папці розпакування.
+BASE_DIR = os.path.dirname(os.path.abspath(sys.executable if getattr(sys, "frozen", False) else __file__))
 DEFAULT_DATA_FILE = os.path.join(BASE_DIR, "budget.json")
 # налаштування інтерфейсу (наприклад, обрана тема) — окремо від даних бюджету
 DEFAULT_SETTINGS_FILE = os.path.join(BASE_DIR, "settings.json")
@@ -50,6 +52,19 @@ class BudgetController:
         self.budget: Budget = Budget.create_default()
         self.data_file = data_file
         self.settings_file = settings_file
+        # Перший запуск: якщо робочого бюджету ще немає, завантажуємо демонстраційні
+        # записи з комплекту програми та створюємо budget.json поруч із EXE.
+        # Усі наступні запуски використовують уже збережений budget.json.
+        if getattr(sys, "frozen", False) and not os.path.isfile(self.data_file):
+            resource_dir = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+            sample_file = os.path.join(resource_dir, "sample_budget.json")
+            if os.path.isfile(sample_file):
+                try:
+                    self.budget = DataManager.load_from_json(sample_file)
+                    DataManager.save_to_json(self.budget, self.data_file)
+                except Exception:
+                    logging.exception("Не вдалося ініціалізувати демонстраційні дані")
+                    self.budget = Budget.create_default()
         self.settings: dict = self._load_settings()
         self.queue: Queue = Queue()   # канал зв'язку з фоновими потоками
         self.is_busy = False          # виконується фонова задача (імпорт або розрахунок звіту)
