@@ -52,6 +52,19 @@ class BudgetController:
         self.budget: Budget = Budget.create_default()
         self.data_file = data_file
         self.settings_file = settings_file
+        # Перший запуск: якщо робочого бюджету ще немає, завантажуємо демонстраційні
+        # записи з комплекту програми та створюємо budget.json поруч із EXE.
+        # Усі наступні запуски використовують уже збережений budget.json.
+        if not os.path.isfile(self.data_file):
+            resource_dir = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+            sample_file = os.path.join(resource_dir, "sample_budget.json")
+            if os.path.isfile(sample_file):
+                try:
+                    self.budget = DataManager.load_from_json(sample_file)
+                    DataManager.save_to_json(self.budget, self.data_file)
+                except Exception:
+                    logging.exception("Не вдалося ініціалізувати демонстраційні дані")
+                    self.budget = Budget.create_default()
         self.settings: dict = self._load_settings()
         self.queue: Queue = Queue()   # канал зв'язку з фоновими потоками
         self.is_busy = False          # виконується фонова задача (імпорт або розрахунок звіту)
