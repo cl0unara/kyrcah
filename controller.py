@@ -55,7 +55,7 @@ class BudgetController:
         # Перший запуск: якщо робочого бюджету ще немає, завантажуємо демонстраційні
         # записи з комплекту програми та створюємо budget.json поруч із EXE.
         # Усі наступні запуски використовують уже збережений budget.json.
-        if not os.path.isfile(self.data_file):
+        if getattr(sys, "frozen", False) and not os.path.isfile(self.data_file):
             resource_dir = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
             sample_file = os.path.join(resource_dir, "sample_budget.json")
             if os.path.isfile(sample_file):
